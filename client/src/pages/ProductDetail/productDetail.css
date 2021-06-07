@@ -1,0 +1,85 @@
+.links {
+  padding: 0 0 1.5rem 0;
+  color: #7b7b7b;
+  user-select: none;
+  border-bottom: 1px solid rgb(217, 217, 217);
+}
+.reviews-container {
+  border-top: 1px solid rgb(217, 217, 217);
+}
+.links a {
+  text-decoration: none;
+  color: #7b7b7b;
+  margin-right: 5px;
+}
+.imageContainer {
+  cursor: crosshair;
+  user-select: none;
+}
+.imageContainer img {
+  width: 100%;
+  height: auto;
+  display: block;
+  pointer-events: none;
+}
+.my-btn {
+  padding: 14px 42px !important;
+}
+.gold {
+  color: #ffb400;
+  font-size: 1.2rem;
+  margin-left: 10px;
+}
+.add-rem {
+  margin-right: 10px;
+}
+.select {
+  padding: 0.5rem;
+  font-weight: 600;
+}
+.select:focus {
+  outline: none;
+}
+
+#feedback-btn {
+  font-size: 1.2rem !important;
+}
+#feedback-btn:hover {
+  background-color: transparent !important;
+  color: #7b7b7b !important;
+}
+.number-items {
+  justify-content: space-evenly;
+}
+#first-btn {
+  margin-right: 10px;
+}
+.car {
+  text-align: center;
+  min-width: 121px;
+  padding-top: 5px;
+}
+.car-cont {
+  justify-content: space-between !important;
+}
+
+@media (max-width: 992px) {
+  .imageContainer {
+    margin-bottom: 20px;
+  }
+  .buttons {
+    margin-top: 30px;
+  }
+}
+@media (max-width: 396px) {
+  .my-btn {
+    margin-right: 0 !important;
+    padding: 0.5rem !important;
+  }
+  .gold {
+    font-size: 0.7rem !important;
+  }
+  .car-cont {
+    justify-content: space-around !important;
+  }
+}

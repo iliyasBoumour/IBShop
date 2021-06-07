@@ -1,0 +1,76 @@
+.w-100 {
+  max-height: 80vh;
+  min-height: 50vh;
+}
+
+.carouselItem img {
+  object-fit: cover;
+}
+.carousel-item:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(0%, -50%);
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.carousel-caption h3 {
+  margin: 0;
+  font-weight: 700;
+  line-height: 56px;
+  color: #bd744c;
+}
+.carousel-caption p {
+  color: #262626;
+  margin: 1vw 0 0 0;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+}
+.carousel-caption button {
+  margin: auto;
+  margin-top: 15px;
+}
+.btn-bold {
+  padding: 1.5vw 3.5vw !important;
+  font-weight: 700 !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+.carousel-control-next .sr-only,
+.carousel-control-prev .sr-only {
+  display: none;
+}
+@media (min-width: 992px) {
+  .carousel-caption {
+    background-position: bottom;
+    max-width: 35vw;
+    transform: translate(-20%, -40%);
+  }
+  .btn-bold {
+    padding: 14px 42px !important;
+    font-size: 1.5rem !important;
+  }
+}
+@media (min-width: 768px) {
+  .carousel-caption p {
+    font-size: 1.5rem;
+    margin: 15px 0 0 0;
+  }
+  .carousel-caption h3 {
+    font-size: 2.5rem;
+  }
+}

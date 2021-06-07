@@ -1,0 +1,24 @@
+html {
+  scroll-behavior: auto !important;
+}
+.mt-nav {
+  margin-top: 100px !important;
+}
+.btn-outline-primary {
+  color: #bd744c !important;
+  border-color: #bd744c !important;
+  width: fit-content !important;
+  border-radius: 0 !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+.btn-outline-primary:hover {
+  color: #fff !important;
+  border-color: #fff !important;
+  background-color: #bd744c !important;
+  transition: 0.5s;
+}
+a {
+  text-decoration: none !important;
+  color: inherit !important;
+}
